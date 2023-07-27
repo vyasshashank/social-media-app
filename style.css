@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-<<<<<<< HEAD
+
 :root{
-  --primary-color-hue:152;
-  --dark-color-lightness:17%;
-  --light-color-lightness:95%;
-  --white-color-lightness:100%;
-=======
-  :root{
      --primary-color-hue:152;
     --dark-color-lightness:17%;
     --light-color-lightness:95%;
@@ -22,7 +16,6 @@
     --color-danger:hsl(0,95%,65%);
      --color-dark:hsl(252,30%,var(--dark-color-lightness));
     --color-black:hsl(252,30%,10%);
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
 
   --color-white:hsl(252,30%,var(--white-color-lightness));
   --color-light:hsl(252,30%,var(--light-color-lightness));
@@ -541,19 +534,11 @@ main .container .left .profile{
  display:none;
 }
 .customize-theme .card{
-<<<<<<< HEAD
-  background:var(--color-white);
-  padding: 3rem;
-  border-radius: var(--card-border-radius);
-  width: 50%;
-  box-shadow: 0 0 1rem var(--color-primary);
-=======
     background:var(--color-white);
     padding: 3rem;
     border-radius: var(--card-border-radius);
     width: 50%;
      box-shadow: 0 0 1rem var(--color-primary);
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
 }
 
 .customize-theme .font-size{
@@ -675,69 +660,6 @@ main .container .left .profile{
 }
 
 @media screen and (max-width:1200px){
-<<<<<<< HEAD
-  .container{
-      width: 96%;
-  }
-  main .container{
-      grid-template-columns: 5rem auto 30vw;
-      gap: 1rem;
-  }
-  .left{
-      width: 5rem;
-      z-index: 5;
-  }
-  main .container .left .profile{
-      display: none;
-  }
-  .sidebar h3{
-      display: none;
-  }
-  .left .btn{
-      display: none;
-  }
-  .customize-theme .card{
-      width:80vw;
-  }
-}
-
-@media screen and (max-width:992px){
-  nav .search-bar{
-      display: none;
-  }
-  main .container{
-      grid-template-columns: 0 auto 5rem;
-      gap: 0;
-  }
-  main .container .left{
-      grid-column: 3/4;
-      position: fixed;
-      bottom: 0;
-      right: 0;
-  }
-  .left .notifications-popup{
-      position: absolute;
-      left: -20rem;
-      width: 20rem;
-  }
-  .left .notifications-popup::before{
-      display:absolute;
-      top: 1.3rem;
-      left: calc(20rem - 0.6rem);
-      display: block;
-  }
-
-  
-  main .container .middle{
-      grid-column: 1/3;
-  }
-  main .container .right{
-      display: none;
-  }
-  .customize-theme .card{
-      width:96vw;
-  }
-=======
     .container{
         width: 96%;
     }
@@ -799,6 +721,5 @@ main .container .left .profile{
      .customize-theme .card{
         width:96vw;
     }
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
 }
 

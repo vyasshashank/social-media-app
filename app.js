@@ -14,11 +14,8 @@ const colorPalette=document.querySelectorAll('.choose-color span');
 const Bg1= document.querySelector('.bg-1');
 const Bg2= document.querySelector('.bg-2');
 const Bg3= document.querySelector('.bg-3');
-<<<<<<< HEAD
 //*************NOTIFICATION*************** *//
-=======
 
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
 
 const changeActiveItem = () => {
     menuItems.forEach(item => {
@@ -43,17 +40,6 @@ menuItems.forEach(item => {
     })
 })
 
-<<<<<<< HEAD
-//************************MESSAGES******************************** */
-
-//**********search chats */
-const searchMessage= () => {
-    const val =messageSearch.value.toLowerCase();
-
-    message.forEach(chat=>{
-        let name=chat.querySelectorAll('h5').textContent.toLowerCase();
-        if(name.indexOf(val) != -1){
-=======
 //*************************MESSAGES********************************* */
 
 //**********search chats */
@@ -62,17 +48,13 @@ const searchMessage=()=>{
     message.forEach(chat=>{
         let name=chat.querySelectorAll('h5').textContent.toLowerCase();
         if(name.indexOf(val)!=-1){
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
             chat.style.display='flex';
         }
         else{
             chat.style.display='none';
         }
     })
-<<<<<<< HEAD
     
-=======
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
 
 }
 //************search chat */
@@ -87,14 +69,6 @@ messagesNotification.addEventListener('click', () => {
     }, 2000);
 }
 )
-
-
-<<<<<<< HEAD
-//************theme******** */
-=======
-//*************theme********* */
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
-//*****openinng the modal */
 const openThemeModal=()=>{
     themeModal.style.display='grid';
 }
@@ -235,8 +209,4 @@ Bg3.addEventListener('click',()=>{
     Bg1.classList.remove('active');
     Bg2.classList.remove('active');
     changeBG();
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> 5d331dc265d9a26041a47f9cea24212640f46e7e
