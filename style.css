@@ -52,6 +52,12 @@ body{
   background: var(--color-light);
   overflow-x: hidden;
 }
+.container .log{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 3vw;
+  font-family: 'Abril Fatface', cursive;
+}
+
 .container{
   width:80%;
   margin: 0 auto;
